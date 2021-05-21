@@ -1,0 +1,222 @@
+
+@import "scss/colores";
+@import "scss/media-queries";
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: $color-principal;
+}
+
+p{
+    font-size: 20px;
+    line-height: 2;
+    
+}
+a:hover{
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.btn{
+    font-size: 24px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: $color-blanco;
+    color: $color-principal;
+    margin-top: 20px;
+}
+
+.btn:hover{
+    color: $color-secundario;
+}
+
+.navbar{
+    min-height: 100px;
+    background-color: $color-principal;
+  
+    
+}
+
+.nav-link{
+    color: $color-principal;
+    background-color: #efebda;
+    margin: 0 10px 0 10px;
+    border-radius: 5px;
+   
+}
+.nav-link:hover{
+    color:$color-secundario
+}
+
+.logo-nav{
+    min-width: 100px;
+    max-width: 130px;
+    height: 100px;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+#ImagenPrincipal{
+    background-image: url("assets/multimedia/imagen-principal.jpg");
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+    margin-top: px;
+    color: $color-blanco;
+}
+
+.content-center{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    padding: 30px;
+}
+
+.color{
+    color: cyan;
+}
+
+.productos-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 10px;
+    border-radius: 10px;
+   
+}
+
+.productos-container img{
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: 0.8s;
+}
+
+
+.productos-container:hover img{
+    -moz-transform:scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.productos-detalles{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+.productos-detalles a h2, .productos-detalles p{
+    color: $color-principal;
+    font-size: 30px;
+    background-color: $color-secundario;
+   
+    
+}
+
+
+
+.bgc-about{
+    background-color: $color-secundariol;
+    margin-top: 40px;
+}
+
+.h2-about{
+    color: $color-h1;
+}
+
+.logo-about{
+    height: 100px;
+    width: 100px;
+}
+
+.top-margin-sm{
+    margin-top: 30px;
+}
+
+
+.form-control{
+    font-size: 14px;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 2px;
+    height: auto;
+}
+
+.form-control:focus{
+    border: 1px solid $color-secundario;
+    outline: none;
+    box-shadow: none;
+}
+
+
+
+#footer{
+    padding: 50px 0;
+    text-align: center;
+    color: $color-principal;
+}
+
+#footer a{
+    color: $color-principal;
+}
+
+#footer a:hover{
+    color: $color-principal;
+    text-decoration: underline;
+}
+
+#footer .list-inline .list-inline-item{
+    padding: 10px 15px;
+}
+
+
+/* Tablas */
+
+.galeria {
+    padding: 80px 0;
+    background-color: $color-principal;
+
+}
+
+.galeria img{
+    max-width: 100%;
+    background-color: $color-secundario;
+    padding: 15px;
+}
+
+.h1-tabla{
+    text-align: center;
+    padding: 15px ;
+    
+}
+
+.h2-tablas{
+    text-align: center;
+    color: $color-blanco;
+    background-color: $color-secundario;
+    border-radius: 30px;
+}
+
+
+.tamañoslide{
+    width: 500px;
+    margin: auto;
+    background-color: $color-secundario;
+}
+
+.container1{
+    background-image:url("assets/multimedia/campera\ nueva.jpg")
+}
+
+.container2{
+    background-image:url("assets/multimedia/bosque.jpg");
+    background-size: cover;
+}
+.h5-tablas{
+    font-size: 25px;
+    color: $color-blanco;
+    background-color: $color-h1;
+    border-radius: 15px;
+}
